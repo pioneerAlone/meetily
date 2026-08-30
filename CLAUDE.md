@@ -407,3 +407,17 @@ $env:RUST_LOG="debug"; ./clean_run_windows.bat
 
 **Whisper Integration**:
 - [frontend/src-tauri/src/whisper_engine/whisper_engine.rs](frontend/src-tauri/src/whisper_engine/whisper_engine.rs) - Whisper model management and transcription
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live as GitHub issues (`pioneerAlone/meetily`). Use the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Five canonical triage labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout: `CONTEXT.md` and `docs/adr/` at the repo root when created. See `docs/agents/domain.md`.
